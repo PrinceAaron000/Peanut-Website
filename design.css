@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,800;0,900;0,1000;1,200;1,300;1,400;1,600;1,700;1,800;1,1000&family=Roboto+Mono:ital,wght@1,700&family=Tektur:wght@500&display=swap');
+body{
+    margin: 0;    
+    margin-bottom: 50px;
+    background-image: radial-gradient(circle, #e58c28, #c77f2c, #aa7130, #8f6432, #745634);
+}
+.nav-bar{
+    text-align: center;    
+    padding-top: 50px;
+    padding-left: 150px;
+   
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+.link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;    
+    font-family: Tektur;
+    font-weight: bold;
+    padding: 40px;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.link:hover{
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.brand-title{
+    text-transform: uppercase;
+    font-size: 25px;    
+    font-family: Tektur;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline;
+    position: absolute;
+    padding: 25px 0px;
+
+}
+.brand-container{
+    height: 0;
+    padding-top: 30px;
+}
+.link-button{
+    float: right;
+    position: absolute;
+    margin-top: 70px;
+    margin-right: 70px;
+    top: 0;
+    right: 0;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #a76737;
+    font-family: Tektur;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.link-button:hover{
+    background: black;
+  
+}
+.content-container{
+    width: 100%;
+    height: 100%;
+    display: inline block;
+    text-align: center;
+    font-family: Tektur;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.header{
+    line-height: 50px;
+    word-spacing: 2px;
+}
+.tagline{
+    font-family: Nunito;
+    font-size: 17px;
+    color: black;
+    padding-right: 90px;
+}
+span{
+    color: whitesmoke;
+}
+.brand-title span{
+    color: black;
+}
+.new-button1{
+    border-radius: 20px;
+    padding: 5px 28px;
+    background-color: #a76737;
+    font-family: Tektur;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: 0.2s;
+   
+    
+}    
+.new-button1:hover{
+    background: black;   
+}
+.new-button2{
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #a76737;
+    font-family: Tektur;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: 0.2s;
+
+   
+}    
+.new-button2:hover{
+    background: black;   
+    
+}
+.btn1-container{
+    text-align: center;
+    
+    
+}
+.btn2-container{
+    padding: 25px 0px;
+    text-align: center;
+    
+}
+.skippy{
+    width: 400px;
+
+}
+.brown{
+    width: 400px;
+} 
+.banner1{
+    width: 300px;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    
+}   
+p{
+    text-transform: uppercase;
+    font-size: 25px;    
+    font-family: Tektur;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    padding-left: 80px;
+}
+.banner1 span{
+    color:whitesmoke;
+}
+.about-container{
+    text-align: center;
+    height: 400px;
+    padding-top: 270px;
+    
+}
+.salita{
+    padding-top: 50px;
+    padding-right: 30px;
+    font-family: Tektur;
+    font-size: 15px;
+    color: black;
+
+}
+.google-map{
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+.loc{
+    font-size: 20px;
+    font-family: Tektur;
+    padding-top: 150px;
+}
+.contact-page{
+    width: 500px;
+    height: 400px;
+    margin-top: 350px;
+    margin-left: 390px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.contact{
+    text-transform: capitalize;
+    font-family: Tektur;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 25px;
+    color: whitesmoke;
+
+}
+.maps{
+    border-radius: 5px;
+}
+.name{
+    height: 30px;
+    width: 300px;
+    display: block;
+    margin-left: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Nunito;
+    outline: none;
+}
+.email{
+    height: 30px;
+    width: 300px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Nunito;
+    outline: none;
+}
+.message{
+    height: 30px;
+    padding-bottom: 100px;
+    width: 300px;   
+    margin-right: 70px;
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Nunito;
+    outline: none;
+}
+.pindutan{
+    padding-bottom: 10px;
+    width: 100px;   
+    margin-right: 70px;
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px 28px;
+    background-color: #a76737;
+    font-family: Tektur;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.pindutan:hover{
+    background: black;   
+}
+.footer p{
+    padding-top: 70px;
+    font-size: 15px;
+    font-family: Nunito;
+    padding-right: 60px;
+}
+section{
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+span .lokasyon{
+    color: whitesmoke;
+}
+.about-us{
+    text-transform: capitalize;
+    font-family: Tektur;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 25px;
+    color: whitesmoke;
+}
